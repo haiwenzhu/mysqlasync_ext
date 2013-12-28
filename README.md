@@ -2,7 +2,7 @@
 This is a simple mysql extension which provide a function `mysql_async_get_socket` to get a database connection's socket file descriptor, the file descriptor can be used in some stream based function such as event_set etc.
 
 #Install
-This is a php extension, you could install it just like anyother ext.
+This is a php extension, you could install it just like any other ext.
 ```
 /usr/local/php/bin/phpize
 ./configure --with-php-config=/usr/local/php/bin/php-config --enable-mysqlasync
